@@ -105,7 +105,7 @@ body {
   margin-top: -27px;
 }
 
-.analytic {
+#analytic {
   margin-bottom: 95px;
 }
 
@@ -145,7 +145,7 @@ body {
   color: #4f5665;
 }
 
-.provide {
+#provide {
   margin-bottom: 130px;
 }
 
@@ -202,7 +202,7 @@ body {
   margin-right: 10px;
 }
 
-.plan {
+#plan {
   padding-top: 80px;
   padding-bottom: 75px;
   background-color: #fbfbfb;
@@ -224,8 +224,98 @@ body {
   color: #4f5665;
   margin-bottom: 60px;
 }
+.plan-list{
+  list-style: none;
+}
 
-.global {
+.plan-item{
+  width: 330px;
+  padding: 80px 60px 50px 75px;
+  background: #FFFFFF;
+  border: 2px solid #DDDDDD;
+  border-radius: 10px;
+}
+
+.plan-item:last-child{
+  border: 2px solid #F53838;
+}
+
+.plan-img{
+  margin-bottom: 30px;    
+}
+
+.item-title{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #0B132A;
+  margin-bottom: 30px;
+}
+
+.item-list{
+  list-style-type: none;
+  margin-bottom: 130px;
+}
+
+.second{
+  margin-bottom: 90px;
+}
+
+.third{
+  margin-bottom: 50px;
+}
+
+.item-item{
+  font-size: 14px;
+  line-height: 30px;
+  color: #4F5665;
+  margin-bottom: 10px;
+}
+
+.item-item::before{
+  content: url('../image/galka.png');
+  width: 13px;
+  height: 9px;
+  margin-right: 20px;
+}
+
+.plan-span{
+  display: block;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #0B132A;
+  margin-bottom: 20px;
+}
+
+.dollar{
+  font-weight: 500;
+}
+
+.plan-link{
+  display: inline-block;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  color: #F53838;
+  text-decoration: none;
+  border: 2px solid #F53838;
+  border-radius: 50px;
+  padding: 13px 63px;
+}
+
+.plan-link:hover{
+  background-color: #F53838;
+  color: #fff;
+}
+
+.changed-link{
+  background-color: #F53838;
+  color: #fff;
+}
+
+
+#global {
   background-color: #fdfdfd;
   padding-top: 75px;
   padding-bottom: 50px;
@@ -255,14 +345,13 @@ body {
 .global-list {
   list-style-type: none;
   align-items: center;
-  justify-content: space-between;
 }
 
 .global-item {
 
 }
 
-.trust {
+#trust {
 
 }
 
@@ -292,7 +381,6 @@ body {
 }
 
 .trust-icon {
-  justify-content: space-between;
   align-items: center;
 }
 
