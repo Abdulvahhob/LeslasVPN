@@ -373,12 +373,62 @@ body {
 }
 
 .trust-list {
-
+  list-style-type: none;
+  margin-bottom: 60px;
 }
 
 .trust-item {
-
+  width: 350px;
+  padding: 20px;
+  background: #FFFFFF;
+  border: 2px solid #ddd;
+  border-radius: 10px;
 }
+
+.trust-item:first-child {
+  border-color: #F53838;
+}
+
+.trust-item-box {
+  margin-bottom: 18px;
+}
+
+.trust-item-img {
+  margin-right: 18px;
+}
+
+.trust-item-about {
+  margin-right: 60px;
+}
+
+.robert {
+  margin-right: 80px;
+}
+
+.trust-about-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #0b132a;
+}
+
+.trust-about-text {
+  font-size: 14px;
+  line-height: 30px;
+  color: #4f5665;
+}
+
+.trust-star-count {
+  margin-right: 5px;
+}
+
+.trust-item-text {
+  font-size: 16px;
+  line-height: 30px;
+  color: #0b132a;
+}
+
+
 
 .trust-icon {
   align-items: center;

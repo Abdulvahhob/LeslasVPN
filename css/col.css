@@ -30,6 +30,11 @@
   justify-content: center;
 }
 
+.middle {
+  align-items: center;
+  justify-content: center;
+}
+
 .col-1 {
   max-width: 8.3333%;
   flex-basis: 8.3333%;
